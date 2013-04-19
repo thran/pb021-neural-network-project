@@ -8,8 +8,8 @@ testing_set = 10000      # max 10 000
 hidden_layers = [200]
 
 train = False
-learning_set = 30000     # max 60 000
-iterations = 500
+learning_set = 3000     # max 60 000
+iterations = 200
 tests_for_learning_curve = 1000
 
 file_name = "weights/weights-l{0}-i{1}-h{2}*{3}".format(learning_set, iterations, len(hidden_layers), hidden_layers[0])
